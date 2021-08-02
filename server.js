@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(apiRoutes);
 
 app.get('/', (req, res) => {
-    res.send('Mon authentigication');
+    res.send('Mon authentification');
 });
 
 app.listen(ports, () => {
